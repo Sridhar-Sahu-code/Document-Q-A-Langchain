@@ -26,11 +26,8 @@ A **Streamlit web app** that lets you **ask questions across multiple PDFs** usi
 
 Put all screenshots in a `screenshots/` folder. Example table:
 
-| PDF Upload | Quick Answer | Detailed Answer |
-|------------|-------------|----------------|
-| ![Upload](screenshots/upload.png) | ![Quick](screenshots/quick_answer.png) | ![Detailed](screenshots/detailed_answer.png) |
-| ![Upload2](screenshots/upload2.png) | ![Quick2](screenshots/quick_answer2.png) | ![Detailed2](screenshots/detailed_answer2.png) |
-
+PDF Upload
+ ![Upload](upload.png)  
 > Add more rows as needed. Just reference your images in `screenshots/`.
 
 ---
