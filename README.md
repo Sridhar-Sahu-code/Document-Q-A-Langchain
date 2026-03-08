@@ -1,36 +1,52 @@
 # 📄 Chat with PDFs using Google Gemini 2.0 & LangChain
 
-This project is a **Streamlit web app** that allows you to interact with multiple PDF documents using **Google Gemini 2.0** and **LangChain**. It uses **FAISS vector embeddings** for fast semantic search and can provide both **quick answers** from the PDFs and **detailed responses** using the LLM.
+
+A **cutting-edge Streamlit web application** that allows users to **ask questions and interact with multiple PDF documents intelligently**. Leveraging **Google Gemini 2.0** for large language understanding, **FAISS vector embeddings** for semantic search, and **LangChain** for LLM orchestration, this app provides both **instant insights** and **detailed contextual answers** from documents.
 
 ---
 
-## 🚀 Features
+## 🌟 Key Features
 
-- Upload **multiple PDF files** at once.
-- Extract and process text from PDFs.
-- Split text into **chunks** for better embeddings.
-- Create and store a **FAISS vector index** for fast similarity search.
-- Get **quick answers** from relevant PDF chunks instantly.
-- Generate **detailed answers** using **Google Gemini 2.0** via LangChain.
-- Handles **rate-limiting** and retries for API requests.
-- Built with **Streamlit** for an interactive web interface.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.10+**
-- **Streamlit** – Web interface  
-- **PyPDF2** – PDF text extraction  
-- **LangChain** – LLM orchestration  
-- **Google Gemini 2.0** – Large language model for detailed answers  
-- **FAISS** – Vector similarity search  
-- **HuggingFace Embeddings** – Semantic embeddings for PDFs  
-- **dotenv** – Environment variable management  
+- ✅ **Multi-PDF Upload** – Upload and process multiple PDF files simultaneously.
+- ✅ **Intelligent Text Extraction** – Extract and clean text from PDFs using `PyPDF2`.
+- ✅ **Chunked Embeddings** – Split large documents into manageable chunks for more accurate embeddings.
+- ✅ **Semantic Search with FAISS** – Quickly search for relevant content across all uploaded PDFs.
+- ✅ **Quick Answers** – Instant answers from top relevant chunks.
+- ✅ **Detailed Contextual Answers** – Use Google Gemini 2.0 via LangChain for full, context-aware responses.
+- ✅ **Error Handling & Retry Logic** – Handles API rate limits gracefully.
+- ✅ **User-Friendly Streamlit Interface** – Interactive and simple for all users.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🚀 Technologies Used
+
+| Layer             | Technology                                      | Purpose |
+|------------------|-----------------------------------------------|---------|
+| Frontend          | Streamlit                                     | Web interface and user interaction |
+| PDF Processing    | PyPDF2                                        | Extract text from PDFs |
+| LLM Orchestration | LangChain                                     | Connects FAISS and Google Gemini 2.0 |
+| LLM               | Google Gemini 2.0                             | Generates detailed contextual answers |
+| Vector Search     | FAISS                                         | High-performance similarity search |
+| Embeddings        | HuggingFace `sentence-transformers/all-MiniLM-L6-v2` | Converts text chunks to vectors |
+| Environment       | dotenv                                        | Secure API key management |
+| Utilities         | os, time, logging, warnings                   | File handling, retries, error logging |
+
+---
+
+## 🎯 Problem Solved
+
+Working with **large PDF documents** can be time-consuming, especially when you need to extract **specific insights**. This project:
+
+- Reduces manual reading of documents.
+- Provides **semantic search** across multiple PDFs.
+- Delivers **quick answers** for fast insights.
+- Enables **detailed responses** via a state-of-the-art LLM (Google Gemini 2.0).
+
+This is ideal for **analysts, researchers, students, or professionals** dealing with multiple technical reports, research papers, or corporate documents.
+
+---
+
+## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
 
